@@ -2,6 +2,7 @@ CFLAGS ?= -g -O0
 CFLAGS += -lmnl
 
 PROGRAMS := dump-ip-addr
+PROGRAMS += dump-interface-list
 
 .PHONY: all
 all: $(PROGRAMS)
