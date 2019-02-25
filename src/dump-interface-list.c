@@ -141,3 +141,6 @@ int main(void)
     close(s);
     return 0;
 }
+
+// Source code available from Github:
+// - https://github.com/liuqun/netlink-examples
